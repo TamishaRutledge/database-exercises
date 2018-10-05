@@ -16,9 +16,10 @@ USE employees;
 -- GROUP BY last_name
 -- ORDER BY COUNT(last_name) DESC;
 
-SELECT gender, COUNT(gender)
-FROM employees
-WHERE first_name = 'Irena'
-OR first_name = 'Vidya'
-OR first_name = 'Maya'
-GROUP BY gender;
+-- SELECT gender, COUNT(gender)
+-- FROM employees
+-- WHERE first_name = 'Irena'
+-- OR first_name = 'Vidya'
+-- OR first_name = 'Maya'
+-- GROUP BY gender;
+
